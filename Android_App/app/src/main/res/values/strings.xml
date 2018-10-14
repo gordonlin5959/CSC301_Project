@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Reach</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="signUp">Sign Up</string>
+    <string name="firstName">first name</string>
+    <string name="lastName">last name</string>
+    <string name="findClassmates">Find Classmates</string>
+    <string name="next">Next</string>
+    <string name="addFriend">Add Friend</string>
+    <string name="findclassmatetitle">Classmates with the same schedule</string>
+    <string name="addFriendMessage">Add Friend</string>
+    <string name="message">Message</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="bioTitle">Bio</string>
+    <string name="Name">Name</string>
+    <string name="Year">Year</string>
+    <string name="Save">Save Changes</string>
+    <string name="Notifications">Notifications</string>
+    <string name="confirmPassword">confirm password</string>
+    <string name="uploadSchedule">Upload Schedule</string>
+    <string name="uploadTitle">To download your schedule follow these steps:</string>
+    <string name="uploadStep1">Step 1: Login to http://acorn.utoronto.ca with your UTORid and password.</string>
+    <string name="uploadStep2">Step 2: Navigate to the Timetable &amp; Exams tab.</string>
+    <string name="uploadStep3">Step 3" Scroll down and click on Download Calendar Export.</string>
+</resources>

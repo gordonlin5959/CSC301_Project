@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.team09.theproject.GroupActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+
+    ></TextView>
+
+    <ListView
+        android:id="@+id/Chat"
+        android:layout_width="fill_parent"
+        android:layout_height="387dp"
+        android:layout_below="@+id/title"
+        android:background="#f1ecec"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        ></ListView>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Chat"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="SEND"/>
+
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginBottom="10dp"
+        android:text="REFRESH"/>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BFFF"
+    tools:context="com.team09.theproject.MainActivity">
+
+    <ListView
+        android:id="@+id/notifications"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#f1ecec"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/notificationsTitle"></ListView>
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/notificationsTitle"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Notifications"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="10dp"
+
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/findClassmateButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notifications"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/findClassmates" />
+
+    <Button
+        android:id="@+id/FriendsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:text="Friends" />
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/toolbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BFFF"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"/>
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>
