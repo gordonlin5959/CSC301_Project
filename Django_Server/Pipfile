@@ -7,7 +7,7 @@ url = "https://pypi.python.org/simple"
 
 [packages]
 
-django = "==1.11"
+django = "==1.11.29"
 djangorestframework = "==3.6.2"
 pytz = "==2017.3"
 gunicorn = "*"
